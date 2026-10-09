@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Их сургуулийн танилцуулга, сургалтын хөтөлбөр, элсэлтийн мэдээлэл">
+    <title>Ирээдүй Их Сургууль</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🎓</span>
+                <span>ИРЭЭДҮЙ <small>ИХ СУРГУУЛЬ</small></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Цэс нээх" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Нүүр</a>
+                <a href="#about">Бидний тухай</a>
+                <a href="#programs">Сургалт</a>
+                <a href="#news">Мэдээ</a>
+                <a href="#contact">Холбоо барих</a>
+                <a href="#admission" class="nav-button">Элсэх</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <span class="eyebrow">2026–2027 ОНЫ ХИЧЭЭЛИЙН ЖИЛ</span>
+                <h1>Таны ирээдүй<br>эндээс эхэлнэ.</h1>
+                <p>
+                    Мэдлэг, ур чадвар, амжилтыг нэг дороос.
+                    Ирээдүйд бэлэн мэргэжилтэн болоорой.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#admission" class="btn btn-gold">
+                        Элсэлтийн мэдээлэл →
+                    </a>
+                    <a href="#programs" class="btn btn-outline">
+                        Мэргэжлүүд харах
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATISTICS -->
+        <section class="stats">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <h2>20+</h2>
+                    <p>Сургалтын хөтөлбөр</p>
+                </div>
+                <div class="stat-item">
+                    <h2>5000+</h2>
+                    <p>Оюутан суралцагч</p>
+                </div>
+                <div class="stat-item">
+                    <h2>30+</h2>
+                    <p>Жилийн туршлага</p>
+                </div>
+                <div class="stat-item">
+                    <h2>90%</h2>
+                    <p>Ажил эрхлэлтийн зорилт</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section about" id="about">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=85"
+                        alt="Их сургуулийн барилга">
+                </div>
+
+                <div class="about-content">
+                    <span class="section-label">БИДНИЙ ТУХАЙ</span>
+                    <h2>Боловсролоор ирээдүйг бүтээнэ.</h2>
+                    <p>
+                        Бид оюутан бүрд чанартай боловсрол эзэмших,
+                        авьяас чадвараа хөгжүүлэх, ирээдүйн карьераа
+                        бүтээх боломжийг олгохыг зорьдог.
+                    </p>
+
+                    <ul class="check-list">
+                        <li>✓ Чанартай боловсрол</li>
+                        <li>✓ Орчин үеийн сургалтын орчин</li>
+                        <li>✓ Туршлагатай багш нар</li>
+                        <li>✓ Практикт суурилсан сургалт</li>
+                    </ul>
+
+                    <a href="#programs" class="btn btn-primary">
+                        Дэлгэрэнгүй →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROGRAMS -->
+        <section class="section programs" id="programs">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">СУРГАЛТЫН ХӨТӨЛБӨР</span>
+                    <h2>Ирээдүйн мэргэжлээ сонгоорой</h2>
+                    <p>Сонирхолдоо тохирсон чиглэлээр мэдлэг, ур чадвараа хөгжүүл.</p>
+                </div>
+
+                <div class="program-grid">
+                    <article class="program-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80"
+                            alt="Мэдээллийн технологийн оюутнууд">
+                        <div class="program-body">
+                            <span class="program-number">01</span>
+                            <h3>Мэдээллийн технологи</h3>
+                            <p>Программ хангамж, хиймэл оюун ухаан, компьютерын сүлжээ.</p>
+                            <a href="#admission">Дэлгэрэнгүй →</a>
+                        </div>
+                    </article>
+
+                    <article class="program-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=700&q=80"
+                            alt="Бизнесийн удирдлагын баг">
+                        <div class="program-body">
+                            <span class="program-number">02</span>
+                            <h3>Бизнесийн удирдлага</h3>
+                            <p>Менежмент, маркетинг, санхүү, бизнесийн стратеги.</p>
+                            <a href="#admission">Дэлгэрэнгүй →</a>
+                        </div>
+                    </article>
+
+                    <article class="program-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=700&q=80"
+                            alt="Инженерийн лаборатори">
+                        <div class="program-body">
+                            <span class="program-number">03</span>
+                            <h3>Инженерчлэл</h3>
+                            <p>Техник, электроник, автоматжуулалт, инновац.</p>
+                            <a href="#admission">Дэлгэрэнгүй →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADMISSION -->
+        <section class="section admission" id="admission">
+            <div class="container admission-grid">
+                <div class="admission-info">
+                    <span class="section-label">ЭЛСЭЛТ 2026–2027</span>
+                    <h2>Амжилтынхаа эхний алхмыг өнөөдөр хийгээрэй.</h2>
+                    <p>
+                        Мэдээллээ бөглөж, сонирхож буй хөтөлбөрийнхөө
+                        талаар мэдээлэл авах хүсэлт илгээнэ үү.
+                    </p>
+                    <div class="admission-note">
+                        <span>📚</span>
+                        <div>
+                            <strong>Өөрийн ирээдүйг бүтээ</strong>
+                            <p>Мэргэжлээ сонгож, суралцах аяллаа эхлүүл.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="admission-form" id="admissionForm">
+                    <h3>Мэдээлэл авах хүсэлт</h3>
+
+                    <label for="fullName">Овог, нэр</label>
+                    <input type="text" id="fullName"
+                           placeholder="Нэрээ оруулна уу" required>
+
+                    <label for="email">Имэйл хаяг</label>
+                    <input type="email" id="email"
+                           placeholder="example@email.com" required>
+
+                    <label for="phone">Утасны дугаар</label>
+                    <input type="tel" id="phone"
+                           placeholder="Утасны дугаар">
+
+                    <label for="program">Сонирхож буй хөтөлбөр</label>
+                    <select id="program" required>
+                        <option value="">Хөтөлбөр сонгоно уу</option>
+                        <option value="Мэдээллийн технологи">Мэдээллийн технологи</option>
+                        <option value="Бизнесийн удирдлага">Бизнесийн удирдлага</option>
+                        <option value="Инженерчлэл">Инженерчлэл</option>
+                    </select>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        Хүсэлт илгээх →
+                    </button>
+
+                    <p class="form-message" id="formMessage" role="status"></p>
+                    <small>Туршилтын маягт. Бодит бүртгэлд сервер шаардлагатай.</small>
+                </form>
+            </div>
+        </section>
+
+        <!-- NEWS -->
+        <section class="section news" id="news">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">СҮҮЛИЙН МЭДЭЭ</span>
+                    <h2>Мэдээ, мэдээлэл</h2>
+                    <p>Сургуулийн үйл ажиллагаа болон оюутны амжилт.</p>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80"
+                            alt="Төгсөлтийн баяр">
+                        <div class="news-body">
+                            <span class="news-date">СУРГУУЛИЙН МЭДЭЭ</span>
+                            <h3>Оюутны амжилт, төгсөлтийн баяр</h3>
+                            <p>Оюутнуудын сурлагын амжилт, сургуулийн онцлох үйл явдлууд.</p>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80"
+                            alt="Технологийн сургалт">
+                        <div class="news-body">
+                            <span class="news-date">СУРГАЛТ</span>
+                            <h3>Шинэ технологи ба инновац</h3>
+                            <p>Оюутнуудын шинэ санаа, технологийн төслийн танилцуулга.</p>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=700&q=80"
+                            alt="Их сургуулийн оюутнууд">
+                        <div class="news-body">
+                            <span class="news-date">ЭЛСЭЛТ</span>
+                            <h3>Шинэ элсэгчдэд зориулсан мэдээлэл</h3>
+                            <p>Элсэлтийн үе шат болон сургалтын хөтөлбөрийн танилцуулга.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-icon">🎓</span>
+                    <span>ИРЭЭДҮЙ <small>ИХ СУРГУУЛЬ</small></span>
+                </a>
+                <p>Мэдлэг өнөөдөр. Амжилт маргааш.</p>
+            </div>
+
+            <div>
+                <h3>Холбоо барих</h3>
+                <p> Улаанбаатар хот, Монгол Улс</p>
+                <p> +976 7000 0000</p>
+                <p>✉ info@university.mn</p>
+            </div>
+
+            <div>
+                <h3>Холбоосууд</h3>
+                <a href="#about">Бидний тухай</a>
+                <a href="#programs">Сургалтын хөтөлбөр</a>
+                <a href="#admission">Элсэлт</a>
+                <a href="#news">Мэдээ</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Ирээдүй Их Сургууль. Бүх эрх хуулиар хамгаалагдсан.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+:root {
+    --navy: #092d50;
+    --blue: #155b8c;
+    --gold: #e9b957;
+    --light: #f3f6f9;
+    --text: #26384a;
+    --muted: #6b7b8b;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.7;
+    background: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+.container {
+    width: min(1140px, 90%);
+    margin: 0 auto;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.section-label {
+    display: inline-block;
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 45px;
+}
+
+.section-heading h2,
+.about-content h2,
+.admission-info h2 {
+    color: var(--navy);
+    font-size: clamp(27px, 4vw, 38px);
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.section-heading p,
+.about-content > p,
+.admission-info > p {
+    color: var(--muted);
+}
+
+/* HEADER */
+.header {
+    background: var(--navy);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 15px #00000012;
+}
+
+.navbar {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.2;
+    flex-shrink: 0;
+}
+
+.logo-icon {
+    font-size: 32px;
+}
+
+.logo small {
+    display: block;
+    color: #c9d8e7;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #e7edf4;
+    font-size: 13px;
+    font-weight: 500;
+    transition: color 0.25s;
+}
+
+.nav-links a:hover {
+    color: var(--gold);
+}
+
+.nav-links .nav-button {
+    background: var(--gold);
+    color: var(--navy);
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.menu-toggle {
+    display: none;
+    border: 0;
+    background: transparent;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    min-height: 570px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background:
+        url("https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1920&q=85")
+        center / cover no-repeat;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(5, 28, 50, 0.95) 0%,
+        rgba(5, 28, 50, 0.75) 55%,
+        rgba(5, 28, 50, 0.25) 100%
+    );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: white;
+}
+
+.eyebrow {
+    display: inline-block;
+    color: var(--gold);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 6vw, 68px);
+    line-height: 1.12;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.hero-content > p {
+    max-width: 520px;
+    color: #dce6ef;
+    font-size: 17px;
+    margin-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 23px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-gold {
+    background: var(--gold);
+    color: var(--navy);
+}
+
+.btn-primary {
+    background: var(--navy);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--blue);
+}
+
+.btn-outline {
+    color: white;
+    border-color: #ffffff99;
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background: #ffffff18;
+}
+
+/* STATISTICS */
+.stats {
+    background: var(--navy);
+    padding: 35px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.stat-item {
+    text-align: center;
+    color: white;
+}
+
+.stat-item h2 {
+    font-size: 34px;
+    color: var(--gold);
+    line-height: 1.3;
+}
+
+.stat-item p {
+    font-size: 13px;
+    color: #d4e0eb;
+}
+
+/* ABOUT */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.about-image img {
+    height: 430px;
+    border-radius: 12px;
+}
+
+.about-content > p {
+    margin-bottom: 22px;
+}
+
+.check-list {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.check-list li {
+    padding: 5px 0;
+    font-weight: 500;
+    color: #3c5063;
+}
+
+/* PROGRAMS */
+.programs {
+    background: var(--light);
+}
+
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.program-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 25px #0a2d5010;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.program-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px #0a2d5018;
+}
+
+.program-card > img {
+    height: 220px;
+}
+
+.program-body {
+    padding: 25px;
+}
+
+.program-number {
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.program-body h3 {
+    font-size: 20px;
+    color: var(--navy);
+    margin: 8px 0 10px;
+}
+
+.program-body p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.program-body a {
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ADMISSION */
+.admission {
+    background: #eef3f7;
+}
+
+.admission-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    align-items: start;
+    gap: 70px;
+}
+
+.admission-info {
+    padding-top: 25px;
+}
+
+.admission-info > p {
+    margin-bottom: 30px;
+}
+
+.admission-note {
+    display: flex;
+    gap: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.admission-note > span {
+    font-size: 28px;
+}
+
+.admission-note strong {
+    color: var(--navy);
+}
+
+.admission-note p {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.admission-form {
+    background: white;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px #092d5010;
+}
+
+.admission-form h3 {
+    color: var(--navy);
+    font-size: 23px;
+    margin-bottom: 22px;
+}
+
+.admission-form label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.admission-form input,
+.admission-form select {
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #d7e0e8;
+    border-radius: 5px;
+    background: white;
+    color: var(--text);
+    margin-bottom: 17px;
+    outline: none;
+}
+
+.admission-form input:focus,
+.admission-form select:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px #155b8c18;
+}
+
+.submit-btn {
+    width: 100%;
+}
+
+.admission-form small {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 12px;
+}
+
+.form-message {
+    margin-top: 12px;
+    color: #155b45;
+    font-size: 14px;
+}
+
+/* NEWS */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.news-card {
+    border: 1px solid #e8edf2;
+    border-radius: 9px;
+    overflow: hidden;
+    background: white;
+}
+
+.news-card > img {
+    height: 220px;
+}
+
+.news-body {
+    padding: 23px;
+}
+
+.news-date {
+    color: var(--blue);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.news-body h3 {
+    color: var(--navy);
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.news-body p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+    background: #061f38;
+    color: #d3deea;
+    padding-top: 55px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 0.7fr;
+    gap: 45px;
+    padding-bottom: 45px;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer p,
+.footer-grid > div > a {
+    color: #bdcbd9;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.footer-grid > div > a {
+    display: block;
+}
+
+.footer-brand > p {
+    margin-top: 15px;
+}
+
+.footer-logo {
+    font-size: 18px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ffffff20;
+    text-align: center;
+    padding: 20px 5%;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 82px;
+        left: 0;
+        right: 0;
+        background: var(--navy);
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        box-shadow: 0 8px 15px #00000020;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 12px 0;
+    }
+
+    .nav-links .nav-button {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .about-grid,
+    .admission-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .program-grid,
+    .news-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .navbar {
+        min-height: 72px;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    .logo-icon {
+        font-size: 27px;
+    }
+
+    .nav-links {
+        top: 72px;
+    }
+
+    .hero {
+        min-height: 520px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .hero-content > p {
+        font-size: 15px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .stat-item h2 {
+        font-size: 29px;
+    }
+
+    .about-image img {
+        height: 290px;
+    }
+
+    .program-grid,
+    .news-grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .program-card > img,
+    .news-card > img {
+        height: 220px;
+    }
+
+    .admission-form {
+        padding: 23px;
+    }
+
+    .footer-grid {
+        gap: 28px;
+    }
+}
+function showMessage() {
+    alert("Сайн байна уу! Ирээдүй их сургуульд тавтай морил.");
+}
